@@ -14,7 +14,7 @@ public class OpenSteps {
         $(byText(string)).shouldBe(visible);
     }
 
-    @Допустим("Проверяю наличие {string} внутри {string}")
+    @Допустим("Проверить наличие {string} внутри {string}")
     public void checkMenu(String string1, String string2) {
         if (isNotBlank(string2)) {
             $(byXpath("//*[text()='" + string2 + "']")).hover();
