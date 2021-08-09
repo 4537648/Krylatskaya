@@ -15,6 +15,7 @@ import static com.codeborne.selenide.WebDriverRunner.clearBrowserCache;
 public class Hooks {
     public static final String PATH_TO_PROPERTIES = "src/main/resources/config.properties";
     public static String url = "";
+    public static String pass = "";
     @Before
     public void prepareData() {
         System.out.println(">>> Hook Before: OK");
@@ -25,6 +26,7 @@ public class Hooks {
             fileInputStream = new FileInputStream(PATH_TO_PROPERTIES);
             properties.load(fileInputStream);
             url = properties.getProperty("url");
+            pass = properties.getProperty("pass");
             webDriver = properties.getProperty("WebDriver");
         } catch (IOException e) {
             System.err.println("Ошибка! Файл конфигурации или параметр конфигурации не найден!");
