@@ -40,6 +40,7 @@ public class OpenSteps {
         if ("успех".equals(open)) {$("input[type='password']").val(decodedString);
         } else if ("неуспех".equals(open)) {$("input[type='password']").val("12345678");}
     }
+
     @Допустим("Нажать на кнопку {string} \\({string})")
     public void pushTheButton(String string, String string2) {
         String open = string2;

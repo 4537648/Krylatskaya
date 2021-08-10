@@ -2,7 +2,7 @@
 <html xmlns:str="http://exslt.org/strings" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Test Results &mdash; Scenario: &lt;0&gt; - Проверка главного меню на наличие пункта &lt;Пункт&gt;</title>
+        <title>Test Results &mdash; Feature: open</title>
         <style type="text/css">
           html {
             height: 100%
@@ -572,9 +572,9 @@ jQuery.cookie = function(name, value, options) {
     <body>
         <div id="container">
             <div id="header">
-                <div class="time" xmlns="">1 m 4 s</div>
+                <div class="time" xmlns="">16.75 s</div>
                 <h1>
-                    Scenario: &lt;0&gt; - Проверка главного меню на наличие пункта &lt;Пункт&gt;: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">18 total, </span><span class="passed">18 passed</span></strong>
+                    Feature: open: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">37 total, </span><span class="passed">37 passed</span></strong>
                 </h1>
                 <div id="treecontrol">
                     <ul>
@@ -593,60 +593,97 @@ jQuery.cookie = function(name, value, options) {
                 <ul id="tree">
                     <li xmlns="" class="level top open">
                         <span><em class="time">
-                                <div class="time">1 m 4 s</div>
+                                <div class="time">16.75 s</div>
                             </em>Cucumber</span>
                         <ul>
                             <li class="level suite open">
                                 <span><em class="time">
-                                        <div class="time">1 m 4 s</div>
+                                        <div class="time">16.75 s</div>
                                     </em>Открытие сайта</span>
                                 <ul>
                                     <li class="level suite open">
                                         <span><em class="time">
-                                                <div class="time">1 m 4 s</div>
+                                                <div class="time">6.21 s</div>
+                                            </em>Успешное открытие сайта</span>
+                                        <ul>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">5.79 s</div>
+                                                    </em><em class="status">passed</em>Before</span>
+                                                <ul>
+                                                    <li class="text">
+                                                        <span class="stdout">>>> Hook Before: OK<br/></span>
+                                                    </li>
+                                                    <li class="text">
+                                                        <span class="stderr">SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".<br/>SLF4J: Defaulting to no-operation (NOP) logger implementation<br/>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.<br/></span>
+                                                    </li>
+                                                    <li class="text">
+                                                        <span class="stdout">>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
+                                                    </li>
+                                                    <li class="text">
+                                                        <span class="stderr">Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 23860<br/>Only local connections are allowed.<br/>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.<br/>ChromeDriver was started successfully.<br/>Aug 10, 2021 9:46:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession<br/>INFO: Detected dialect: W3C<br/></span>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">417 ms</div>
+                                                    </em><em class="status">passed</em>Проверить что в копирайте указана подпись "&copy;2021 Krylatskaya"</span>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">3 ms</div>
+                                                    </em><em class="status">passed</em>After</span>
+                                                <ul>
+                                                    <li class="text">
+                                                        <span class="stdout">>>> Hook After: OK<br/></span>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="level suite open">
+                                        <span><em class="time">
+                                                <div class="time">5.11 s</div>
                                             </em>&lt;0&gt; - Проверка главного меню на наличие пункта &lt;Пункт&gt;</span>
                                         <ul>
                                             <li class="level suite open">
                                                 <span><em class="time">
-                                                        <div class="time">1 m 4 s</div>
+                                                        <div class="time">5.11 s</div>
                                                     </em>Примеры</span>
                                                 <ul>
                                                     <li class="level suite open">
                                                         <span><em class="time">
-                                                                <div class="time">12.32 s</div>
+                                                                <div class="time">1.94 s</div>
                                                             </em>Example #1</span>
                                                         <ul>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">11.87 s</div>
+                                                                        <div class="time">1.80 s</div>
                                                                     </em><em class="status">passed</em>Before</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook Before - OK<br/></span>
-                                                                    </li>
-                                                                    <li class="text">
-                                                                        <span class="stderr">SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".<br/>SLF4J: Defaulting to no-operation (NOP) logger implementation<br/>SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.<br/></span>
-                                                                    </li>
-                                                                    <li class="text">
-                                                                        <span class="stdout">[INFO] Тестируемый стенд:     https://www.krylatskaya.com<br/>[INFO] Установленный таймаут: 6000<br/></span>
-                                                                    </li>
-                                                                    <li class="text">
-                                                                        <span class="stderr">Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 28171<br/>Only local connections are allowed.<br/>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.<br/>ChromeDriver was started successfully.<br/>Aug 08, 2021 8:48:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession<br/>INFO: Detected dialect: W3C<br/></span>
+                                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">332 ms</div>
-                                                                    </em><em class="status">passed</em>Проверяю наличие "Музыка"</span>
+                                                                        <div class="time">133 ms</div>
+                                                                    </em><em class="status">passed</em>Проверить наличие "Музыка" внутри ""</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Checking Музыка<br/></span>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">116 ms</div>
+                                                                        <div class="time">3 ms</div>
                                                                     </em><em class="status">passed</em>After</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook After - OK<br/></span>
+                                                                        <span class="stdout">>>> Hook After: OK<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -654,34 +691,36 @@ jQuery.cookie = function(name, value, options) {
                                                     </li>
                                                     <li class="level suite open">
                                                         <span><em class="time">
-                                                                <div class="time">10.26 s</div>
+                                                                <div class="time">1.03 s</div>
                                                             </em>Example #2</span>
                                                         <ul>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">9.71 s</div>
+                                                                        <div class="time">968 ms</div>
                                                                     </em><em class="status">passed</em>Before</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook Before - OK<br/>[INFO] Тестируемый стенд:     https://www.krylatskaya.com<br/>[INFO] Установленный таймаут: 6000<br/></span>
-                                                                    </li>
-                                                                    <li class="text">
-                                                                        <span class="stderr">Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 10175<br/>Only local connections are allowed.<br/>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.<br/>ChromeDriver was started successfully.<br/>Aug 08, 2021 8:48:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession<br/>INFO: Detected dialect: W3C<br/></span>
+                                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">426 ms</div>
-                                                                    </em><em class="status">passed</em>Проверяю наличие "Facebook"</span>
+                                                                        <div class="time">62 ms</div>
+                                                                    </em><em class="status">passed</em>Проверить наличие "Facebook" внутри ""</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Checking Facebook<br/></span>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">125 ms</div>
+                                                                        <div class="time">1 ms</div>
                                                                     </em><em class="status">passed</em>After</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook After - OK<br/></span>
+                                                                        <span class="stdout">>>> Hook After: OK<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -689,34 +728,36 @@ jQuery.cookie = function(name, value, options) {
                                                     </li>
                                                     <li class="level suite open">
                                                         <span><em class="time">
-                                                                <div class="time">10.66 s</div>
+                                                                <div class="time">338 ms</div>
                                                             </em>Example #3</span>
                                                         <ul>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">10.35 s</div>
+                                                                        <div class="time">301 ms</div>
                                                                     </em><em class="status">passed</em>Before</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook Before - OK<br/>[INFO] Тестируемый стенд:     https://www.krylatskaya.com<br/>[INFO] Установленный таймаут: 6000<br/></span>
-                                                                    </li>
-                                                                    <li class="text">
-                                                                        <span class="stderr">Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32478<br/>Only local connections are allowed.<br/>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.<br/>ChromeDriver was started successfully.<br/>Aug 08, 2021 8:48:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession<br/>INFO: Detected dialect: W3C<br/></span>
+                                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">212 ms</div>
-                                                                    </em><em class="status">passed</em>Проверяю наличие "Instagram"</span>
+                                                                        <div class="time">37 ms</div>
+                                                                    </em><em class="status">passed</em>Проверить наличие "Instagram" внутри ""</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Checking Instagram<br/></span>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">104 ms</div>
+                                                                        <div class="time">0 ms</div>
                                                                     </em><em class="status">passed</em>After</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook After - OK<br/></span>
+                                                                        <span class="stdout">>>> Hook After: OK<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -724,34 +765,36 @@ jQuery.cookie = function(name, value, options) {
                                                     </li>
                                                     <li class="level suite open">
                                                         <span><em class="time">
-                                                                <div class="time">10.32 s</div>
+                                                                <div class="time">322 ms</div>
                                                             </em>Example #4</span>
                                                         <ul>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">9.95 s</div>
+                                                                        <div class="time">255 ms</div>
                                                                     </em><em class="status">passed</em>Before</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook Before - OK<br/>[INFO] Тестируемый стенд:     https://www.krylatskaya.com<br/>[INFO] Установленный таймаут: 6000<br/></span>
-                                                                    </li>
-                                                                    <li class="text">
-                                                                        <span class="stderr">Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 6938<br/>Only local connections are allowed.<br/>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.<br/>ChromeDriver was started successfully.<br/>Aug 08, 2021 8:48:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession<br/>INFO: Detected dialect: W3C<br/></span>
+                                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">270 ms</div>
-                                                                    </em><em class="status">passed</em>Проверяю наличие "Youtube"</span>
+                                                                        <div class="time">67 ms</div>
+                                                                    </em><em class="status">passed</em>Проверить наличие "Youtube" внутри ""</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Checking Youtube<br/></span>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">100 ms</div>
+                                                                        <div class="time">0 ms</div>
                                                                     </em><em class="status">passed</em>After</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook After - OK<br/></span>
+                                                                        <span class="stdout">>>> Hook After: OK<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -759,34 +802,36 @@ jQuery.cookie = function(name, value, options) {
                                                     </li>
                                                     <li class="level suite open">
                                                         <span><em class="time">
-                                                                <div class="time">10.27 s</div>
+                                                                <div class="time">322 ms</div>
                                                             </em>Example #5</span>
                                                         <ul>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">9.78 s</div>
+                                                                        <div class="time">289 ms</div>
                                                                     </em><em class="status">passed</em>Before</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook Before - OK<br/>[INFO] Тестируемый стенд:     https://www.krylatskaya.com<br/>[INFO] Установленный таймаут: 6000<br/></span>
-                                                                    </li>
-                                                                    <li class="text">
-                                                                        <span class="stderr">Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 4425<br/>Only local connections are allowed.<br/>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.<br/>ChromeDriver was started successfully.<br/>Aug 08, 2021 8:49:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession<br/>INFO: Detected dialect: W3C<br/></span>
+                                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">391 ms</div>
-                                                                    </em><em class="status">passed</em>Проверяю наличие "VK"</span>
+                                                                        <div class="time">33 ms</div>
+                                                                    </em><em class="status">passed</em>Проверить наличие "VK" внутри ""</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Checking VK<br/></span>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">100 ms</div>
+                                                                        <div class="time">0 ms</div>
                                                                     </em><em class="status">passed</em>After</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook After - OK<br/></span>
+                                                                        <span class="stdout">>>> Hook After: OK<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
@@ -794,38 +839,198 @@ jQuery.cookie = function(name, value, options) {
                                                     </li>
                                                     <li class="level suite open">
                                                         <span><em class="time">
-                                                                <div class="time">10.08 s</div>
+                                                                <div class="time">248 ms</div>
                                                             </em>Example #6</span>
                                                         <ul>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">9.73 s</div>
+                                                                        <div class="time">224 ms</div>
                                                                     </em><em class="status">passed</em>Before</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook Before - OK<br/>[INFO] Тестируемый стенд:     https://www.krylatskaya.com<br/>[INFO] Установленный таймаут: 6000<br/></span>
-                                                                    </li>
-                                                                    <li class="text">
-                                                                        <span class="stderr">Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 5448<br/>Only local connections are allowed.<br/>Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.<br/>ChromeDriver was started successfully.<br/>Aug 08, 2021 8:49:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession<br/>INFO: Detected dialect: W3C<br/></span>
+                                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">239 ms</div>
-                                                                    </em><em class="status">passed</em>Проверяю наличие "Email"</span>
+                                                                        <div class="time">24 ms</div>
+                                                                    </em><em class="status">passed</em>Проверить наличие "Email" внутри ""</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Checking Email<br/></span>
+                                                                    </li>
+                                                                </ul>
                                                             </li>
                                                             <li class="level test">
                                                                 <span><em class="time">
-                                                                        <div class="time">113 ms</div>
+                                                                        <div class="time">0 ms</div>
                                                                     </em><em class="status">passed</em>After</span>
                                                                 <ul>
                                                                     <li class="text">
-                                                                        <span class="stdout">Hook After - OK<br/></span>
+                                                                        <span class="stdout">>>> Hook After: OK<br/></span>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                         </ul>
+                                                    </li>
+                                                    <li class="level suite open">
+                                                        <span><em class="time">
+                                                                <div class="time">448 ms</div>
+                                                            </em>Example #7</span>
+                                                        <ul>
+                                                            <li class="level test">
+                                                                <span><em class="time">
+                                                                        <div class="time">231 ms</div>
+                                                                    </em><em class="status">passed</em>Before</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="level test">
+                                                                <span><em class="time">
+                                                                        <div class="time">217 ms</div>
+                                                                    </em><em class="status">passed</em>Проверить наличие "KRYLATSKAYA" внутри "Музыка"</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Checking KRYLATSKAYA<br/></span>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="level test">
+                                                                <span><em class="time">
+                                                                        <div class="time">0 ms</div>
+                                                                    </em><em class="status">passed</em>After</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Hook After: OK<br/></span>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="level suite open">
+                                                        <span><em class="time">
+                                                                <div class="time">460 ms</div>
+                                                            </em>Example #8</span>
+                                                        <ul>
+                                                            <li class="level test">
+                                                                <span><em class="time">
+                                                                        <div class="time">304 ms</div>
+                                                                    </em><em class="status">passed</em>Before</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="level test">
+                                                                <span><em class="time">
+                                                                        <div class="time">156 ms</div>
+                                                                    </em><em class="status">passed</em>Проверить наличие "APRIL RAIN" внутри "Музыка"</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Checking APRIL RAIN<br/></span>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="level test">
+                                                                <span><em class="time">
+                                                                        <div class="time">0 ms</div>
+                                                                    </em><em class="status">passed</em>After</span>
+                                                                <ul>
+                                                                    <li class="text">
+                                                                        <span class="stdout">>>> Hook After: OK<br/></span>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="level suite open">
+                                        <span><em class="time">
+                                                <div class="time">3.89 s</div>
+                                            </em>Проверка успешного входа в корпоративный раздел</span>
+                                        <ul>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">254 ms</div>
+                                                    </em><em class="status">passed</em>Before</span>
+                                                <ul>
+                                                    <li class="text">
+                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">636 ms</div>
+                                                    </em><em class="status">passed</em>Перейти в раздел "corp"</span>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">479 ms</div>
+                                                    </em><em class="status">passed</em>Ввести пароль ("успех")</span>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">2.52 s</div>
+                                                    </em><em class="status">passed</em>Нажать на кнопку "Войти" ("успех")</span>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">0 ms</div>
+                                                    </em><em class="status">passed</em>After</span>
+                                                <ul>
+                                                    <li class="text">
+                                                        <span class="stdout">>>> Hook After: OK<br/></span>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="level suite open">
+                                        <span><em class="time">
+                                                <div class="time">1.54 s</div>
+                                            </em>Проверка неуспешного входа в корпоративный раздел</span>
+                                        <ul>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">560 ms</div>
+                                                    </em><em class="status">passed</em>Before</span>
+                                                <ul>
+                                                    <li class="text">
+                                                        <span class="stdout">>>> Hook Before: OK<br/>>>> Тестируемый cайт:      https://www.krylatskaya.com/<br/>>>> Установленный таймаут: 600<br/></span>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">336 ms</div>
+                                                    </em><em class="status">passed</em>Перейти в раздел "corp"</span>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">103 ms</div>
+                                                    </em><em class="status">passed</em>Ввести пароль ("неуспех")</span>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">542 ms</div>
+                                                    </em><em class="status">passed</em>Нажать на кнопку "Войти" ("неуспех")</span>
+                                            </li>
+                                            <li class="level test">
+                                                <span><em class="time">
+                                                        <div class="time">0 ms</div>
+                                                    </em><em class="status">passed</em>After</span>
+                                                <ul>
+                                                    <li class="text">
+                                                        <span class="stdout">>>> Hook After: OK<br/></span>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -839,7 +1044,7 @@ jQuery.cookie = function(name, value, options) {
             </div>
         </div>
         <div id="footer">
-            <p>Generated by IntelliJ IDEA on 8/8/21, 8:49 PM</p>
+            <p>Generated by IntelliJ IDEA on 8/10/21, 9:46 AM</p>
         </div>
     </body>
 </html>
