@@ -1,7 +1,6 @@
 package com.krylatskaya;
 
 import io.cucumber.java.ru.*;
-
 import java.util.Base64;
 
 import static com.codeborne.selenide.Condition.visible;
