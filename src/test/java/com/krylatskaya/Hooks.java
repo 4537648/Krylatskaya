@@ -26,7 +26,7 @@ public class Hooks {
             fileInputStream = new FileInputStream(PATH_TO_PROPERTIES);
             properties.load(fileInputStream);
             url = properties.getProperty("url");
-            pass = properties.getProperty("pass");
+            pass = properties.getProperty("cred");
             webDriver = properties.getProperty("WebDriver");
         } catch (IOException e) {
             System.err.println("Ошибка! Файл конфигурации или параметр конфигурации не найден!");
