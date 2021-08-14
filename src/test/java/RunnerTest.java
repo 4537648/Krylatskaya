@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/features",
         glue = "com.krylatskaya",
-        tags = "@open",
+        tags = "@Test",
         snippets = SnippetType.UNDERSCORE
 )
 public class RunnerTest {

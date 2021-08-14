@@ -1,0 +1,6 @@
+# Created on 2021-08-15T02:01:06.893
+[AppClassLoader@21588809] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created on 2021-08-15T02:01:06.894
+[AppClassLoader@21588809] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
